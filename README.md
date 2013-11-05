@@ -27,6 +27,7 @@ Plotting:
 * [ggplot2](http://docs.ggplot2.org/current/)
 * [RColorBrewer](http://cran.r-project.org/web/packages/RColorBrewer/index.html)
 * [grid](https://www.stat.auckland.ac.nz/~paul/grid/grid.html)
+* [mapproj](http://cran.r-project.org/web/packages/mapproj/)
 
 ### Procedure:
 

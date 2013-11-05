@@ -7,6 +7,7 @@ library(ggplot2)
 library(grid)
 library(sp)
 library(maptools)
+library(mapproj)
 library(gpclib)
 library(RColorBrewer)
 
@@ -16,7 +17,7 @@ text.footer <- 'Russian Federal State Statistics Service data (http://fedstat.ru
 text.note <- c('45,7%', 'of Russians\nhave internet access')
 
 # Setting working directiory
-setwd('/WRITE/YOUR/WD/HERE')
+setwd('/Users/quatsch/Documents/R.rus.map.zoom')
 
 # Required files (should be placed in working dir):
 # - RUS_adm1.RData - Russia administrative areas borders polygons
@@ -53,7 +54,7 @@ gadm@polygons[[28]]@Polygons <- chuk@polygons[[1]]@Polygons
 # for historical data visualisations
 united.reg <- gadm$ID_1
 
-# Zabaikalsky krai (Chitiskaya obl. + Aginskiy Buryatskiy AOk)
+# Zabaikalsky krai (Chitinskaya obl. + Aginskiy Buryatskiy AOk)
 united.reg[united.reg == 2 | united.reg == 13] <- 91
 
 # Kamchatsky krai (Koryak. AO + Kamchatsk. odl.)
