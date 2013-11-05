@@ -17,7 +17,7 @@ text.footer <- 'Russian Federal State Statistics Service data (http://fedstat.ru
 text.note <- c('45,7%', 'of Russians\nhave internet access')
 
 # Setting working directiory
-setwd('/Users/quatsch/Documents/R.rus.map.zoom')
+setwd('/WRITE/YOUR/WD/HERE')
 
 # Required files (should be placed in working dir):
 # - RUS_adm1.RData - Russia administrative areas borders polygons
